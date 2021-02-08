@@ -1,19 +1,22 @@
 
-body{
+#first{
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
    background-color:rgb(56, 170, 170);
-    height: 700px;
-    position: relative;
-    margin:0 auto;
     background-image: url("images/bg-pattern-top.svg");
     background-image: url("images/bg-pattern-bottom.svg");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100vh; 
 }
+
 .card{
     background-color: white;
     height:430px;
     width: 350px;
-    margin: 150px 35%;
+    /*margin: 150px 35%;*/
     position: absolute;
     border-radius: 5%;
    
@@ -47,14 +50,26 @@ body{
 hr{
   color: white;
 }
-span{
-    color: darkgrey;
-    
+.md{
+    margin: 0 40px;
 }
 .aid{
-    margin: 0 8px;
+    margin: 0 30px;
+    color: darkgrey;
 }
-
+.if{
+   margin-left: 110px;
+    text-align: center;
+}
+.in{
+    color: darkgrey;
+    margin: 0 40px 0 20px;
+}
+.it{
+    color: darkgrey;
+  
+    text-align: center;
+}
 @media(max-width:375px){
     #body{
          display: flex;
