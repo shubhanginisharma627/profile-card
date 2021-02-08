@@ -2,12 +2,12 @@
 body{
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
-   background-color:darkcyan;
+   background-color:rgb(56, 170, 170);
     height: 700px;
     position: relative;
-    margin:100px 50px;
-    background-image: url("bg-pattern-top.svg");
-    background-image: url("bg-pattern-bottom.svg");
+    margin:0 auto;
+    background-image: url("images/bg-pattern-top.svg");
+    background-image: url("images/bg-pattern-bottom.svg");
 }
 .card{
     background-color: white;
@@ -49,7 +49,12 @@ hr{
 }
 span{
     color: darkgrey;
+    
 }
+.aid{
+    margin: 0 8px;
+}
+
 @media(max-width:375px){
     #body{
          display: flex;
